@@ -1,0 +1,105 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1rem; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 500px; }
+
+.carousel-img-1 {
+  background: url("../img/image1.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/image2.jpg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/image3.jpg");
+  background-size: cover; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#getstarted {
+  background: url("../img/bg1.jpg") no-repeat fixed top;
+  min-height: 250px;
+  position: relative; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-video {
+  background: url("../img/people.jpg") no-repeat fixed top;
+  min-height: 250px;
+  position: relative; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #home-video .fa {
+    font-size: 50px; }
+
+#gallery img {
+  min-height: 250px; }
+
+#footer {
+  background: #000; }
+
+/* About Page */
+#page-header {
+  background: url("../img/image1.jpg") no-repeat fixed top;
+  height: 250px; }
+
+#about-info img {
+  width: 350px;
+  height: 350px; }
+
+#icon-boxes .fa {
+  font-size: 50px; }
+
+#testimonial .slick-prev::before {
+  color: #000; }
+
+#testimonial .slick-next::before {
+  color: #000; }
+
+/* Services*/
+#services {
+  background: url("../img/image2.jpg") no-repeat fixed top center;
+  height: 250px; }
+
+/*Blog*/
+#blog-page {
+  background: url("../img/image3.jpg") no-repeat fixed top center;
+  height: 250px; }
+
+/*Contact*/
+#contact-page {
+  background: url("../img/image1.jpg") no-repeat fixed top center;
+  height: 250px; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getstarted {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; }
+  #getstarted {
+    min-height: 350px; } }
+
+@media (max-width: 375px) {
+  #getstarted {
+    min-height: 400px; } }
